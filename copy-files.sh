@@ -10,5 +10,5 @@ cp -rv /home/daleinen/.vimrc $dir
 cp -rv /home/daleinen/.config/xfce4/panel/whiskermenu-10.rc $dir
 cp -rv /home/daleinen/.config/xfce4/terminal/terminalrc $dir
 
-cp -rv /etc/ranger/config/rc.conf $dir
+cp -Lrv /etc/ranger/config/rc.conf $dir
 
