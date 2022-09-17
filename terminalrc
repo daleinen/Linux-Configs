@@ -30,7 +30,7 @@ BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 MiscShowRelaunchDialog=TRUE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-BackgroundDarkness=0.750000
+BackgroundDarkness=0.800000
 ColorForeground=#4a37d1ea202f
 ScrollingUnlimited=TRUE
 

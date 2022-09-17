@@ -1,5 +1,5 @@
 favorites=xfce4-terminal.desktop,org.gnome.DiskUtility.desktop
-recent=org.gnome.DiskUtility.desktop,sol.desktop,org.gnome.Four-in-a-row.desktop,xdemineur.desktop,timeshift-gtk.desktop,lite-upgrade.desktop,hardinfo.desktop,system-config-printer.desktop,org.gnome.GHex.desktop,xfce-backdrop-settings.desktop
+recent=xdemineur.desktop,org.gnome.Four-in-a-row.desktop,gparted.desktop,org.gnome.DiskUtility.desktop,sol.desktop,timeshift-gtk.desktop,lite-upgrade.desktop,hardinfo.desktop,system-config-printer.desktop,org.gnome.GHex.desktop
 button-title=Menu
 button-icon=xfce4-whiskermenu
 button-single-row=false

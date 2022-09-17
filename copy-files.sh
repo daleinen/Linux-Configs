@@ -12,3 +12,5 @@ cp -rv /home/daleinen/.config/xfce4/terminal/terminalrc $dir
 
 cp -Lrv /etc/ranger/config/rc.conf $dir
 
+cp -rv /home/daleinen/.conky/ $dir
+
