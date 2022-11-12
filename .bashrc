@@ -8,10 +8,12 @@ if ! shopt -oq posix; then
 fi
 
 alias usage='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)) {if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
+
 alias ls="ls --color"
-alias ranger="ranger /home/daleinen/"
+#alias ranger="ranger /home/daleinen/"
 alias c="clear"
 alias ll="ls -lah"
+alias sc="shellcheck"
 
 # Powerline
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
@@ -21,10 +23,11 @@ fi
 # Linux Lite Custom Terminal
 LLVER=$(awk '{print}' /etc/llver)
 
-
-#echo -e "Welcome to $LLVER ${USER}"
+echo " "
+echo -e "Welcome to $LLVER ${USER}"
 #echo " "
-#date "+%A %d %B %Y, %T"
+date "+%A %d %B %Y, %T"
+echo " "
 #free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }'
 #df -h | awk '$NF=="/"{printf "Disk Usage: %d/%dGB (%s)\n", $3,$2,$5}'
 #echo " "
